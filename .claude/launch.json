@@ -1,6 +1,6 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "tccbss-preview", "runtimeExecutable": "python3", "runtimeArgs": ["tools/serve.py", "8765"], "port": 8765 }
+    { "name": "tccbss-preview", "runtimeExecutable": "python3", "runtimeArgs": ["tools/serve.py", "8770"], "port": 8770 }
   ]
 }

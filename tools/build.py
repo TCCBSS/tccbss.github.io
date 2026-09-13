@@ -125,7 +125,7 @@ CONTACT=f"""<section id="contact"><div class="wrap"><p class="kicker">Contact Us
   <p class="hp" aria-hidden="true"><label>Leave this field empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
   <div><button class="btn" type="submit">Send</button></div>
   <p class="status" role="status" aria-live="polite"></p>
-  <p class="note">This site is protected by reCAPTCHA-free spam filtering. By sending, you agree to our <a href="/privacy-policy">Privacy Policy</a> and <a href="/terms-%26-conditions">Terms &amp; Conditions</a>.</p>
+  <p class="note">By sending this form you agree to our <a href="/privacy-policy">Privacy Policy</a> and <a href="/terms-%26-conditions">Terms &amp; Conditions</a>.</p>
 </form>
 <div class="info"><h3>We love our customers, so feel free to contact us at any time</h3>
   <dl><dt>Email</dt><dd><a href="mailto:{EMAIL}">{EMAIL}</a></dd><dt>Company</dt><dd>TCC Business Support Solution W.L.L.<br>Doha, State of Qatar</dd>
@@ -201,7 +201,7 @@ FAQ=[("What is contract leakage?","Contract leakage is the value an organisation
 LEVELS=[("Level 1","Beginner","Certified Contract Management Foundations","Beginner level, for engineers, coordinators and team members new to contract administration on oil &amp; gas and infrastructure projects. Covers contract fundamentals, administration basics, change control and records discipline, with practical case work.",L1),
 ("Level 2","Advanced","Advanced Certified Contract Management","For practising contract administrators, engineers and quantity surveyors. Deepens expertise in FIDIC and EPC contracts, claims strategy and dispute resolution — taught from real project cases.",L2),
 ("Level 3","Professional","FIDIC Certified Contracts Manager","Professional level, for experienced practitioners. Advanced FIDIC contract mechanisms — variations, claims, determinations and dispute boards — preparing you to manage FIDIC contracts on major international projects.",L3)]
-tr=hero("Certified Training","Contract Management Training — Oil &amp; Gas &amp; FIDIC",
+tr=hero("Certified Training","Contract Management Training&nbsp;— Oil&nbsp;&amp;&nbsp;Gas &amp; FIDIC",
  "Three-level certified contract management training for oil &amp; gas and infrastructure teams: Foundations, Advanced, and FIDIC Certified Contracts Manager.",("View the courses","#levels"),("Ask about team programmes","/#contact"))
 tr+='<section id="levels"><div class="wrap"><p class="kicker">Three levels</p><h2>Choose your level</h2><div class="levels">'
 for tag,sub,name,desc,link in LEVELS:
